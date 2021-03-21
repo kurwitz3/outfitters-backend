@@ -6,7 +6,21 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
+Review.create([{
+    name: 'James',
+    date:'December 2019',
+    content:"American Outfitters is an amazing guide service. I used them to get a trophy Mule Deer and couldn't be more pleased with my experience. 
+    The facilities were amazing, clean, comfortable and had everything that you need. The guide was super friendly and knowledgeable. 
+    I got my deer on the third day and could be happier. 
+    Trust me if you go with American Outfitters you won't be disappointed!" 
+},
+{
+    name: 'Wyatt',
+    date: "November 2018",
+    content: "Love American Outfitters! I've hunted with them before and they are the best. This november I went on a Whitetail Deer hunt and had a blast!
+    The guide are awsome and will get you the trophy you been searching for. Camp was really nice and the food was great. I will coming back for sure. Do your
+    self a favor and book a hunt!"
+}])
 Hunt.create([{
     animal:'Whitetail Deer',
     location: 'Texas',
